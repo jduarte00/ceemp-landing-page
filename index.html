@@ -1,0 +1,1038 @@
+<!--
+    TODO
+
+    1. AÑADIR BOTON INDICADOR DE SCROLL DOWN
+    2.- ALADIR SMOOTH SCROLL Y SPYSCROLL
+    3.- AÑADIR FUNCIONALIDAD A LA FORMA (listo)
+    4.- ARREGLAR TITULOS DEMASIADO GRANDES (listo)
+    5.- VER COLORES
+    6.- ARREGLAR ICONO DE SAD BUDDHA
+    7.- PONER LINKS A BEMS Y CAMBIAR INFO DEL ACCORDEON
+    8.- AÑADIR FAVICON (listo)
+
+  https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Consultoria Estrategica Empresarial</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-96x96.png"
+    />
+    <!-- EXTERNAL STYLES -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- PERSONAL STYLES (COMPILED BOOTSTRAP) -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+
+    <header id="main-header">
+      <!-- NAV START -->
+      <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="#home" class="navbar-brand">
+            <img
+              src="./img/logo-white.png"
+              alt="Logo Ceemp"
+              class="image-height-container img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-collapse"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="#servicios" class="nav-link">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#testimonios" class="nav-link">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a href="#boletin" class="nav-link">Boletines</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacto" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- NAV END -->
+
+      <!-- HERO START -->
+
+      <div
+        id="main-hero"
+        class="container py-5 d-flex flex-column justify-content-between"
+      >
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h1 class="display-4 text-white" id="slogan">
+              Si nuestros clientes crecen, también lo hacemos nosotros.
+            </h1>
+          </div>
+        </div>
+        <p class="lead text-white text-center pb-3 pt-md-5">
+          <strong class=""> Consultoría Estratégica Empresarial.</strong> <br />
+          Bienvenido. <br />
+          <i class="fas fa-angle-double-down d-sm-block d-md-none"></i>
+        </p>
+      </div>
+      <!-- HERO END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- NOSOTROS START -->
+
+    <section id="nosotros" class="py-5">
+      <div class="container">
+        <h4 class="display-3 title-section-black title-section pb-2">
+          Nosotros.
+        </h4>
+        <div class="row mt-5">
+          <div
+            class="col-lg-6 justify-content-center align-items-center margin-bottom-responsive px-4"
+          >
+            <img src="./img/logo_completo.png" class="img-fluid p-5" alt="" />
+            <p class="line-spacing-lg text-justify">
+              Somos un grupo de profesionistas especializados en diversas ramas
+              de la administración, finanzas, contabilidad y planeación
+              estratégica. Iniciamos operaciones hace 25 años y hemos tenido la
+              fortuna de atender a diversas empresas y grupos empresariales,
+              siempre sobre la base de agregar valor a nuestros clientes.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 d-flex align-items-center justify-content-center"
+          >
+            <div>
+              <div class="row mb-3">
+                <div class="col">
+                  <button
+                    class="btn btn-block nosotros-btn btn-ceemp-magenta"
+                    data-toggle="collapse"
+                    data-target="#mision"
+                    aria-expanded="true"
+                  >
+                    Misión
+                  </button>
+                </div>
+                <div class="col">
+                  <button
+                    class="btn btn-ceemp-blue btn-block nosotros-btn"
+                    data-toggle="collapse"
+                    data-target="#vision"
+                    aria-expanded="true"
+                  >
+                    Visión
+                  </button>
+                </div>
+                <div class="col">
+                  <button
+                    class="btn btn-ceemp-grey btn-block nosotros-btn"
+                    data-toggle="collapse"
+                    data-target="#valores"
+                    aria-expanded="true"
+                  >
+                    Valores
+                  </button>
+                </div>
+              </div>
+              <div id="mision" class="collapse show">
+                <div class="card">
+                  <div
+                    class="card-body text-center bg-ceemp-magenta text-white"
+                  >
+                    <p class="card-text line-spacing-lg">
+                      Consolidarnos como una de las Firmas de mayor prestigio en
+                      estrategias de crecimiento y desarrollo empresarial en el
+                      sector de las PYME´s, generando valor agregado a nuestros
+                      clientes a través de procesos rentables y sustentables de
+                      institucionalización y Gobierno Corporativo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="vision" class="collapse">
+                <div class="card">
+                  <div class="card-body text-center bg-ceemp-blue text-white">
+                    <p class="card-text line-spacing-lg">
+                      Generar una base de Clientes suficiente, sólida y rentable
+                      que permita apalancar el crecimiento de la Firma,
+                      Colaboradores, Alianzas y Proveedores, a través de ofrecer
+                      a nuestros Clientes servicios profesionales de alto valor
+                      agregado que redunden en beneficios para todos los
+                      stakeholders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="valores" class="collapse">
+                <div class="card">
+                  <div class="card-body bg-ceemp-grey">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-ceemp-grey">
+                        <p>
+                          <span class="text-white">Honestidad </span> <br />
+                          Decir al cliente la verdad y no solo lo que él quiera
+                          escuchar.
+                        </p>
+                      </li>
+                      <li class="list-group-item bg-ceemp-grey">
+                        <p>
+                          <span class="text-white">Lealtad </span> <br />
+                          La razón de ser de nuestra Firma son los clientes a
+                          ellos debemos lealtad.
+                        </p>
+                      </li>
+                      <li class="list-group-item bg-ceemp-grey">
+                        <p>
+                          <span class="text-white">Confidencialidad </span>
+                          <br />
+                          Proteger la información de nuestros clientes
+                          asegurando los mecanismos que eviten divulgarla o
+                          compartirla con terceros sin autorización de los
+                          clientes.
+                        </p>
+                      </li>
+                      <li class="list-group-item bg-ceemp-grey">
+                        <p>
+                          <span class="text-white">Compromiso </span> <br />
+                          Dar a nuestros clientes la tranquilidad y confianza de
+                          que cumplimos los acuerdos en tiempo y forma.
+                        </p>
+                      </li>
+                      <li class="list-group-item bg-ceemp-grey">
+                        <p>
+                          <span class="text-white">Calidad </span> <br />
+                          Buscar siempre que nuestro pensar y actuar se apegue a
+                          los criterios de eficiencia y eficacia en cada trabajo
+                          que nos encomienden los clientes.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS END -->
+
+    <!-- SERVICIOS START -->
+    <section id="servicios" class="py-5 bg-ceemp-light-orange">
+      <div class="container">
+        <h4
+          class="display-3 text-right mb-5 title-section-black title-section pb-2"
+        >
+          Nuestros Servicios.
+        </h4>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div
+              class="card total-height bg-ceemp-magenta text-center text-white"
+            >
+              <div class="card-body">
+                <i class="fas fa-chair fa-5x mb-4"></i>
+                <h4>Participación en el consejo de Administración</h4>
+                <hr />
+                <p>
+                  A fin de institucionalizar y contribuir a profesionalizar la
+                  toma de decisiones es recomendable la presencia de consejeros
+                  o asesores externos, y es precisamente en este punto en el que
+                  ofrecemos nuestra experiencia y conocimientos para
+                  desempeñarnos como miembros del Consejo de administración.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div class="card total-height bg-ceemp-blue text-white text-center">
+              <div class="card-body">
+                <i class="fas fa-user-md fa-5x mb-4"></i>
+                <h4>Diagnóstico Operativo</h4>
+                <hr />
+                <p>
+                  Tiene como objetivo principal identificar las causas y los
+                  factores que generan las deficiencias en la organización, así
+                  como evaluar los efectos negativos, a fin de buscar y proponer
+                  alternativas factibles de solución que mejoren los resultados
+                  y permitan alcanzar los objetivos establecidos por la
+                  Dirección General.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div class="card total-height bg-ceemp-grey text-white text-center">
+              <div class="card-body">
+                <i class="fas fa-project-diagram fa-5x mb-4"></i>
+                <h4>Planeación Estratégica</h4>
+                <hr />
+                <p>
+                  El proceso de planeación estratégica necesita acciones
+                  específicas para asegurar el crecimiento y desarrollo de la
+                  empresa, como son: la definición del presupuesto, su vínculo
+                  con la fijación de objetivos SMART e indicadores de gestión
+                  así como la medición y comunicación de los mismos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div
+              class="card total-height bg-ceemp-magenta text-white text-center"
+            >
+              <div class="card-body">
+                <i class="fas fa-balance-scale fa-5x mb-4"></i>
+                <h4>Institucionalización y Gobierno Corporativo</h4>
+                <hr />
+                <p>
+                  A fin de garantizar la operación autónoma de la empresa y
+                  evitar depender para su crecimiento y desarrollo de las
+                  capacidades de sus dueños y/o de su Director General , es
+                  indispensable su institucionalización y el establecimiento del
+                  Gobierno Corporativo, que permitan garantizar una
+                  administración más transparente y procesos más eficientes que
+                  contribuyan a incrementar el valor de la empresa, así como
+                  fomentar la cultura de pertenencia y planes de carrera para
+                  todos sus colaboradores, contribuyendo al logro de una
+                  organización transgeneracional.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div class="card total-height bg-ceemp-blue text-white text-center">
+              <div class="card-body">
+                <i class="fas fa-file-invoice-dollar fa-5x mb-4"></i>
+                <h4>Capacitación Empresarial</h4>
+                <hr />
+                <p>
+                  Nuestra labor como consultores y la participación activa en
+                  diversas instituciones de prestigio en el ámbito educativo y
+                  de capacitación, nos ha permitido combinar experiencia y
+                  teoría para enfrentar con éxito diversos problemas, aplicando
+                  metodologías y modelos que diagnostican e identifican los
+                  puntos de mejora, lo que facilita transmitir de manera
+                  pragmática sin perder el rigor teórico de las mejores
+                  prácticas en materia de soluciones de negocio.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 card-margin-bottom">
+            <div class="card total-height bg-ceemp-grey text-white text-center">
+              <div class="card-body">
+                <i class="fas fa-clipboard-list fa-5x mb-4"></i>
+                <h4>Valuación de Empresas</h4>
+                <hr />
+                <p>
+                  A través del diseño de modelos financieros que concentra las
+                  principales variables operativas y de mercado, se determina el
+                  rango de valor y se sensibiliza el valor de la empresa en
+                  marcha a fin de apoyar los siguientes procesos:
+                </p>
+                <ul class="text-left">
+                  <li>Fusiones y Adquisiciones</li>
+                  <li>Venta de Empresas</li>
+                  <li>
+                    Venta y Distribución de Acciones en Empresas Familiares
+                  </li>
+                  <li>
+                    Resolución de disputas y salidas o incorporación de nuevos
+                    socios
+                  </li>
+                  <li>Reestructuración de Negocios</li>
+                  <li>Gestión de Créditos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card total-height bg-ceemp-blue text-white text-center">
+              <div class="card-body">
+                <i class="fas fa-users fa-5x mb-4"></i>
+                <h4>Evaluación de Proyectos</h4>
+                <hr />
+                <p>
+                  Diseñamos, evaluamos y sensibilizamos planes de negocio, a fin
+                  de identificar los principales riesgos y su impacto financiero
+                  a través de estudios de viabilidad y factibilidad económica.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS END -->
+
+    <!-- CLIENTES START -->
+    <div id="testimonios" class="py-5">
+      <div class="container">
+        <h4 class="display-4 mb-5 title-section-black title-section pb-2">
+          Algunos de Nuestros Clientes.
+        </h4>
+        <div class="row text-center mx-1">
+          <div class="col">
+            <div class="slider">
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/gbi_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/gbi_cliente2.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/bioreg_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/cfe_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/tec_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/turin_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/findes_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/clevite_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/clinicaortopedia_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/impulso_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/jack_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center client-container"
+              >
+                <a href="#">
+                  <img
+                    src="./img/liverpool_cliente.jpg"
+                    alt=""
+                    class="image-client"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CLIENTES END -->
+
+    <!-- BOLETÍN START -->
+    <section id="boletin" class="py-5 bg-ceemp-blue text-white ">
+      <div class="container">
+        <h4
+          class="display-4 mb-5 title-section-white text-right title-section pb-2"
+        >
+          Boletín de <br />Estrategia Empresarial.
+        </h4>
+        <div class="row">
+          <div
+            class="col-md-6 margin-bottom-responsive order-sm-2 order-md-1 order-2"
+          >
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol1"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 1</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol1" class="collapse show">
+                  <div class="card-body text-dark text-center">
+                    <p>Consejo de Administración</p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol2"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 2</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol2" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>Responsabilidades del Consejo de Administración</p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol3"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 3</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol3" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>Talento Femenino en el Consejo de Administración</p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol4"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 4</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol4" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>La Insititucionalización en las MIPyME's</p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol5"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 5</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol5" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>
+                      Capital Humano ¿Es realmente el activo más valioso de la
+                      empresa?
+                    </p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol6"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 6</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol6" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>
+                      Alineación de la Empresa ¿Estamos logrando nuestro
+                      propósito ?
+                    </p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol7"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 7</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol7" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>
+                      Factores Clave para el Desarrollo de la pequeña empresa
+                    </p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="text-center">
+                    <a
+                      href="#bol8"
+                      data-parent="#accordion"
+                      data-toggle="collapse"
+                      >Boletín 8</a
+                    >
+                  </h5>
+                </div>
+                <div id="bol8" class="collapse">
+                  <div class="card-body text-dark text-center">
+                    <p>Sucesión en la Empresa Familiar</p>
+                    <a href="#" class="btn btn-ceemp-grey btn-block"
+                      >Descarga</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex align-items-center order-sm-1 order-md-2 order-1 margin-bottom-responsive"
+          >
+            <p class="line-spacing-lg text-justify">
+              El propósito del BEM (Boletín de Estrategia Empresarial) es
+              mantenerlo informado de las mejores prácticas y consejos que
+              faciliten el proceso de profesionalización, institucionalización y
+              desarrollo de su empresa. En su diseño y estructura intentamos
+              redactado en términos sencillos, pero sin perder rigurosidad en
+              desarrollo de los tópicos de mayor utilidad para una gestión
+              exitosa de su organización. Se emite dentro de los primeros 10
+              días de cada mes y Usted puede consultarlo a través de nuestra
+              página web, o bien, recibirlo de manera automática si registra sus
+              datos en el apartado de contacto. Nuestro mayor deseo es
+              contribuir al crecimiento sustentable, desarrollo y permanencia de
+              su empresa en un ámbito cada vez más competitivo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOLETÍN END -->
+
+    <!-- CONTACTO START -->
+    <section id="contacto" class="py-5 bg-secondary text-white">
+      <div class="container">
+        <h4 class="display-3 mb-5 title-section-white title-section pb-2">
+          Contacto.
+        </h4>
+        <div class="row mb-5">
+          <div class="col-md-6 margin-bottom-responsive">
+            <h5 class="mb-4">Comunicate con Nosotros</h5>
+            <form
+              action="https://script.google.com/macros/s/AKfycbwrqKxC3Pk7sfIgIt65eb2H376gO0DCImypHznUSg/exec"
+              class="gform"
+              method="post"
+            >
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Nombre</span>
+                  </div>
+                  <input type="text" class="form-control" name="name" />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Teléfono</span>
+                  </div>
+                  <input type="text" class="form-control" name="tel" />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Mail</span>
+                  </div>
+                  <input type="email" class="form-control" name="email" />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Mensaje</span>
+                  </div>
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="form-control"
+                  ></textarea>
+                </div>
+              </div>
+              <input
+                type="submit"
+                value="Enviar"
+                class="btn btn-ceemp-magenta btn-block"
+              />
+              <div class="thankyou_message d-none pt-4">
+                <div class="alert alert-success">
+                  <p class="text-center">
+                    <strong>Información Enviada Correctamente</strong><br />
+                    Nos pondremos en contacto a la brevedad con usted, muchas
+                    gracias.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-md-6 px-5 margin-bottom-responsive d-flex align-items-center"
+          >
+            <div>
+              <h4>Consultoría Estratégica Empresarial S.C</h4>
+              <address class="lead">
+                Gabriel Mancera 516 - 301, Del Valle, Ciudad de México, 03100,
+                Mexico city <br />
+                <a href="tel:01-55-50880366" class="text-white"
+                  >01 55 50 88 03 66 </a
+                ><br />
+                <a href="mailto:contacto@ceemp.com.ms" class="text-white"
+                  >contacto@ceemp.com.mx</a
+                >
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.520995285752!2d-99.16541518501296!3d19.389882786908558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff0c08d69453%3A0x68f7c8a1a737d97f!2sCalle+Gabriel+Mancera+516%2C+Col+del+Valle+Nte%2C+03100+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1sen!2smx!4v1542329156065"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO END -->
+
+    <!-- FOOTER START -->
+    <footer id="main-footer" class="py-3 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p>
+              Desarrollado por <a href="#">SadBuddha</a>
+              <img src="./img/sadbuddha_white.png" alt="" height="20" />
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <p>
+              Sitio Propiedad de Consultoría Estratégica Empresarial &copy;
+              2018. <br />Todos los derechos reservados
+            </p>
+          </div>
+          <div class="col text-center">
+            <p>
+              Consulta nuestro
+              <a
+                href="#"
+                data-toggle="collapse"
+                data-target="#aviso"
+                aria-expanded="true"
+              >
+                aviso de privacidad</a
+              >
+            </p>
+            <div class="collapse" id="aviso">
+              <p class="text-justify">
+                En Consultoría Estratégica Empresarial, la información de
+                nuestros clientes es tratada de forma estrictamente
+                confidencial, por lo que hacemos un esfuerzo permanente para
+                salvaguardarla. Recabamos solo aquellos datos que sean
+                necesarios para la prestación de nuestros servicios. <br />
+                Al proporcionar sus datos personales, entiende que podrán ser
+                tratados directa o indirectamente por nosotros, con las
+                siguientes finalidades:
+
+                <span class="d-block">
+                  <ul class="text-left">
+                    <li>Ofrecer Nuestros Servicios</li>
+                    <li>Dar cumplimiento a requerimientos legales</li>
+                    <li>Actividades de mercadeo</li>
+                    <li>Análisis Estadístico</li>
+                    <li>Mantener actualizados sus registros</li>
+                    <li>Mantener comunicación estrecha con Usted</li>
+                  </ul>
+                </span>
+
+                Para prever el acceso no autorizado a sus datos personales, y
+                con el fin de asegurar que la información sea utilizada para los
+                fines establecidos en este aviso de privacidad, hemos
+                establecido procedimientos físicos y administrativos, utilizando
+                tecnologías avanzadas que limitan el uso o divulgación,
+                permitiéndonos tratar sus datos debidamente. Asimismo, puede
+                tener la confianza que sus datos personales serán tratados
+                exclusivamente por aquellas personas que requieran del
+                conocimiento de dichos datos. <br />
+                <br />
+                Todos sus datos personales son tratados de acuerdo a la
+                legislación aplicable y vigente en el país, es por ello que le
+                informamos que usted tiene en todo momento el derecho de
+                acceder, rectificar, cancelar u oponerse al tratamiento que le
+                damos a sus datos personales (Derechos ARCO), así como revocar
+                el consentimiento otorgado para el tratamiento de los mismos ,
+                que podrá hacerlo a través del siguiente correo
+                <a href="mailto:contacto@ceemp.com.mx">contacto@ceemp.com.mx</a
+                >. <br />
+                <br />
+                Le pedimos que considere que por su protección y beneficio es
+                posible que le solicitemos documentación que acredite las
+                correcciones a los datos que usted desea rectificar o cancelar;
+                también es posible qué Consultoría Estratégica Empresarial pueda
+                cancelar o bloquear la totalidad de sus datos personales de
+                conformidad con las leyes que les sean aplicables. <br />
+                <br />
+                El ejercicio de sus derechos ARCO es gratuito, en el entendido
+                de que consultoría Estratégica Empresarial puede solicitarle
+                únicamente el pago de gastos justificados de envío o costos de
+                reproducción de la información que solicite. Asimismo, Usted
+                tiene derecho a iniciar un procedimiento de protección de
+                derechos ante el Instituto federal de Acceso a la Información y
+                protección de datos IFAI, siempre y cuando reúna los requisitos
+                señalados en la legislación aplicable y vigente en cualquiera de
+                los dos casos siguientes: Cuando Consultoría Estratégica no
+                responda a su solicitud para ejercer sus derechos ARCO dentro de
+                los 20 días siguientes de haberla recibido, o bien, dentro de
+                los 15 días siguientes de haber recibido una respuesta por parte
+                de Consultoría Estratégica que no cumpla con lo establecido en
+                la legislación aplicable y vigente en materia de Protección de
+                Datos personales. <br />
+                <br />
+                Este aviso podrá ser modificado de tiempo en tiempo por
+                Consultoría Estratégica con dichas modificaciones Informadas a
+                través de nuestra página de internet o, a través de correo
+                electrónico, para tal efecto. Duda o aclaración, así como para
+                el ejercicio de sus derechos ARCO podría comunicarse con al
+                teléfono 50880366 / 78274067 en los horarios de atención de
+                lunes a viernes de 9 AM A 6 PM o por medio de correo
+                electrónico:
+                <a href="mailto:contacto@ceemp.com.mx">contacto@ceemp.com.mx</a
+                >. <br />
+                <br />
+                De conformidad con lo previsto en los artículos 8, 9, 13 y 36 de
+                la ley para la Protección de Datos personales en posesión de
+                particulares, por medio de la presente reconozco y entiendo los
+                alcances del aviso de privacidad, y autorizó de forma expresa a
+                Consultoría Estratégica Empresarial a recabar mis datos
+                personales de tiempo en tiempo, de acuerdo a las disposiciones
+                legales aplicables.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FOOTER END -->
+
+    <!-- TO TOP BUTTON START -->
+    <a href="#" class="back-to-top text-danger p-1 text-center">
+      <i class="far fa-arrow-alt-circle-up fa-3x"></i>
+      <p class="m-0 b-0">TOP!</p>
+    </a>
+    <!-- TO TOP BUTTON END -->
+
+    <!-- SCRIPTS FROM OUTSITE -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="./js/mail-handler.js"
+    ></script>
+
+    <!-- PERSONAL SCRIPT -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

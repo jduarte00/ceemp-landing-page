@@ -1,0 +1,241 @@
+/* @import "./bootstrap.scss"; */
+
+/* variables */
+$black-overlay: rgba(0, 0, 0, 0.7);
+$ceemp-magenta: #8e2367;
+$ceemp-magenta-dark: #7a225a;
+$ceemp-blue: #294b8d;
+$ceemp-blue-dark: #1d3463;
+$ceemp-grey: #838383;
+$ceemp-grey-dark: #616161;
+$ceemp-dark-orange: #fa7921;
+$ceemp-light-orange: #fe9920;
+$ceemp-white: #fff;
+$ceemp-black: rgb(46, 45, 45);
+
+body {
+  overflow-x: hidden;
+}
+
+/* utility classes */
+.title-section-black {
+  border-bottom: 2px solid black;
+}
+
+.title-section-white {
+  border-bottom: 2px solid white;
+}
+
+.total-height {
+  height: 100%;
+}
+
+.line-spacing-lg {
+  line-height: 2;
+}
+
+.text-ceemp-blue {
+  color: $ceemp-blue !important;
+}
+
+.text-ceemp-magenta {
+  color: $ceemp-magenta !important;
+}
+
+.text-ceemp-grey {
+  color: $ceemp-grey !important;
+}
+
+.text-ceemp-light-orange {
+  color: $ceemp-light-orange !important;
+}
+
+.text-ceemp-dark-orange {
+  color: $ceemp-dark-orange !important;
+}
+
+.bg-ceemp-blue {
+  background-color: $ceemp-blue;
+}
+
+.bg-ceemp-magenta {
+  background-color: $ceemp-magenta;
+}
+
+.bg-ceemp-grey {
+  background-color: $ceemp-grey;
+}
+
+.bg-ceemp-light-orange {
+  background-color: $ceemp-light-orange;
+}
+
+.bg-ceemp-dark-orange {
+  background-color: $ceemp-dark-orange;
+}
+
+.btn-ceemp-magenta {
+  background-color: $ceemp-magenta;
+  color: $ceemp-white;
+  border-color: $ceemp-magenta;
+}
+
+.btn-ceemp-magenta:hover {
+  background-color: $ceemp-magenta-dark;
+  color: $ceemp-white;
+  border-color: $ceemp-magenta;
+}
+
+.btn-ceemp-blue {
+  background-color: $ceemp-blue;
+  color: $ceemp-white;
+  border-color: $ceemp-blue;
+}
+
+.btn-ceemp-blue:hover {
+  background-color: $ceemp-blue-dark;
+  color: $ceemp-white;
+  border-color: $ceemp-blue;
+}
+
+.btn-ceemp-grey {
+  background-color: $ceemp-grey;
+  color: $ceemp-white;
+  border-color: $ceemp-grey;
+}
+
+.btn-ceemp-grey:hover {
+  background-color: $ceemp-grey-dark;
+  color: $ceemp-white;
+  border-color: $ceemp-grey;
+}
+
+.btn-ceemp-orange {
+  background-color: $ceemp-light-orange;
+  color: $ceemp-black;
+  border-color: $ceemp-light-orange;
+}
+
+.btn-ceemp-orange:hover {
+  background-color: $ceemp-dark-orange;
+  color: $ceemp-black;
+  border-color: $ceemp-light-orange;
+}
+
+/* header styles */
+#main-header {
+  background: linear-gradient($black-overlay, $black-overlay),
+    url("../img/compass.gif") center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* nav styles */
+
+.image-height-container {
+  max-width: 200px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(225, 225, 225, 0.7);
+}
+/* servicios */
+
+.card-margin-bottom {
+  margin-bottom: 20px;
+}
+
+/* clientes */
+
+.client-container {
+  height: 250px !important;
+}
+
+.image-client {
+  width: 200px;
+  max-height: 200px;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: $ceemp-dark-orange;
+}
+
+/* contact */
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 32%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+}
+
+/* to-top-btn */
+.back-to-top {
+  position: fixed;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  display: none;
+  border-radius: 15px;
+}
+
+.btn-top--show {
+  display: block;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+  .margin-bottom-responsive {
+    margin-bottom: 3rem;
+  }
+
+  .margin-top-responsive {
+    margin-bottom: 3rem;
+  }
+
+  .text-center-responsive {
+    text-align: center;
+  }
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+  }
+
+  .title-section {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  #main-hero {
+    height: 100vh;
+  }
+
+  .title-section {
+    font-size: 2.5rem;
+  }
+
+  #slogan {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 321px) {
+  #slogan {
+    font-size: 2.5rem;
+  }
+}

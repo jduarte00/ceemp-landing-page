@@ -1,0 +1,14 @@
+{
+  "name": "ceemp-landing-page",
+  "version": "1.0.0",
+  "description": "Landing Page for CEEMP",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass ./scss/styles.scss ./css/styles.css -w"
+  },
+  "author": "Jose Antonio Duarte Mendieta",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
