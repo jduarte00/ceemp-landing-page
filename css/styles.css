@@ -4,6 +4,9 @@ body {
   overflow-x: hidden; }
 
 /* utility classes */
+.extra-large-padding {
+  padding: 6rem 0; }
+
 .title-section-black {
   border-bottom: 2px solid black; }
 
@@ -86,6 +89,9 @@ body {
   color: #2e2d2d;
   border-color: #fe9920; }
 
+#valores .border-white {
+  border-bottom: 2px solid #fff; }
+
 /* header styles */
 #main-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/compass.gif") center;
@@ -133,15 +139,20 @@ body {
 /* to-top-btn */
 .back-to-top {
   position: fixed;
-  color: white;
+  color: #8e2367;
   bottom: 20px;
-  right: 20px;
+  right: 40px;
   z-index: 100;
   display: none;
-  border-radius: 15px; }
+  border-radius: 50%;
+  font-size: 20px;
+  background: #fff; }
+
+.back-to-top:hover {
+  text-decoration: none; }
 
 .btn-top--show {
-  display: block; }
+  display: flex; }
 
 /* media queries */
 @media (max-width: 767px) {
@@ -165,7 +176,19 @@ body {
   .title-section {
     font-size: 2.5rem; }
   #slogan {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 100;
+    display: none;
+    border-radius: 50%;
+    font-size: 20px; }
+  .btn-top--show {
+    display: flex; }
+  .extra-large-padding {
+    padding: 3rem 0; } }
 
 @media (max-width: 321px) {
   #slogan {

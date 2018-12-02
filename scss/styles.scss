@@ -18,6 +18,10 @@ body {
 }
 
 /* utility classes */
+.extra-large-padding {
+  padding: 6rem 0;
+}
+
 .title-section-black {
   border-bottom: 2px solid black;
 }
@@ -122,6 +126,10 @@ body {
   border-color: $ceemp-light-orange;
 }
 
+#valores .border-white {
+  border-bottom: 2px solid $ceemp-white;
+}
+
 /* header styles */
 #main-header {
   background: linear-gradient($black-overlay, $black-overlay),
@@ -181,16 +189,22 @@ body {
 /* to-top-btn */
 .back-to-top {
   position: fixed;
-  color: white;
+  color: $ceemp-magenta;
   bottom: 20px;
-  right: 20px;
+  right: 40px;
   z-index: 100;
   display: none;
-  border-radius: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  background: $ceemp-white;
+}
+
+.back-to-top:hover {
+  text-decoration: none;
 }
 
 .btn-top--show {
-  display: block;
+  display: flex;
 }
 
 /* media queries */
@@ -231,6 +245,25 @@ body {
 
   #slogan {
     font-size: 2.5rem;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 100;
+    display: none;
+    border-radius: 50%;
+    font-size: 20px;
+    //background: $ceemp-white;
+  }
+
+  .btn-top--show {
+    display: flex;
+  }
+
+  .extra-large-padding {
+    padding: 3rem 0;
   }
 }
 
