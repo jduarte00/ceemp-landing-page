@@ -1,7 +1,7 @@
 /* @import "./bootstrap.scss"; */
 
 /* variables */
-$black-overlay: rgba(0, 0, 0, 0.7);
+$black-overlay: rgba(0, 0, 0, 0.702);
 $ceemp-magenta: #8e2367;
 $ceemp-magenta-dark: #7a225a;
 $ceemp-blue: #294b8d;
@@ -11,7 +11,7 @@ $ceemp-grey-dark: #616161;
 $ceemp-dark-orange: #fa7921;
 $ceemp-light-orange: #fe9920;
 $ceemp-white: #fff;
-$ceemp-black: rgb(46, 45, 45);
+$ceemp-black: #2e2d2d;
 
 body {
   overflow-x: hidden;
@@ -235,8 +235,13 @@ body {
 }
 
 @media (max-width: 575px) {
-  #main-hero {
+  #main-header {
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+  #main-hero {
+    height: 100%;
   }
 
   .title-section {
@@ -255,7 +260,6 @@ body {
     display: none;
     border-radius: 50%;
     font-size: 20px;
-    //background: $ceemp-white;
   }
 
   .btn-top--show {

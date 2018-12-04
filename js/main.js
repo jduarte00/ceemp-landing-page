@@ -1,3 +1,11 @@
+// Adjust viewport height in mobile browsers
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty("--vh", `${vh}px`);
+window.addEventListener("resize", () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+});
+
 //Hide other collapses when one is clicked
 $(".nosotros-btn").click(function() {
   $("#mision, #vision, #valores").collapse("hide");
