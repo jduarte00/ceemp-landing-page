@@ -12,7 +12,7 @@ $(".nosotros-btn").click(function() {
 });
 
 //Smooth Scroll
-$("#main-nav a").on("click", function(event) {
+$("#main-nav a, #scroll-down-indicator").on("click", function(event) {
   if (this.hash !== "") {
     event.preventDefault();
     const hash = this.hash;
