@@ -16,18 +16,11 @@ $ceemp-black: #2e2d2d;
 /* utility classes */
 body {
   overflow-x: hidden;
+  font-family: "Lato", serif;
 }
 
 .extra-large-padding {
   padding: 6rem 0;
-}
-
-.title-section-black {
-  border-bottom: 2px solid black;
-}
-
-.title-section-white {
-  border-bottom: 2px solid white;
 }
 
 .total-height {
