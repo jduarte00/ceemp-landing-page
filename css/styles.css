@@ -1,9 +1,9 @@
 /* @import "./bootstrap.scss"; */
 /* variables */
+/* utility classes */
 body {
   overflow-x: hidden; }
 
-/* utility classes */
 .extra-large-padding {
   padding: 6rem 0; }
 
@@ -97,7 +97,8 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.702), rgba(0, 0, 0, 0.702)), url("../img/compass.gif") center;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-bottom: 3rem; }
 
 /* nav styles */
 .image-height-container {
@@ -173,7 +174,8 @@ body {
 @media (max-width: 575px) {
   #main-header {
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100); }
+    height: calc(var(--vh, 1vh) * 100);
+    padding: 0; }
   #main-hero {
     height: 100%; }
   .title-section {

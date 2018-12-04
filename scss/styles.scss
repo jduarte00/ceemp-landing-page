@@ -13,11 +13,11 @@ $ceemp-light-orange: #fe9920;
 $ceemp-white: #fff;
 $ceemp-black: #2e2d2d;
 
+/* utility classes */
 body {
   overflow-x: hidden;
 }
 
-/* utility classes */
 .extra-large-padding {
   padding: 6rem 0;
 }
@@ -137,6 +137,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  padding-bottom: 3rem;
 }
 
 /* nav styles */
@@ -238,6 +239,7 @@ body {
   #main-header {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
+    padding: 0;
   }
 
   #main-hero {
