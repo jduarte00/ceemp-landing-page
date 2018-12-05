@@ -152,6 +152,8 @@ body {
 
 /* media queries */
 @media (max-width: 767px) {
+  #main-header {
+    background-attachment: scroll; }
   .margin-bottom-responsive {
     margin-bottom: 3rem; }
   .margin-top-responsive {
